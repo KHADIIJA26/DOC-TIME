@@ -19,13 +19,14 @@ nav{display:flex;justify-content:space-between;align-items:center}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem}
 .card{background:#f8fafc;padding:1.5rem;border-radius:10px}
 .card h3{color:#2563eb;margin:.5rem 0}
+.card a{color:#2563eb;font-weight:700;text-decoration:none}
 footer{background:#1e293b;color:#fff;text-align:center;padding:1.5rem 5%;margin-top:2rem}
 </style>
 </head>
 <body>
-<header><nav><div class="logo">🏥 DocTime</div><div class="nav-links"><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#contact">Contact</a></div></nav></header>
-<section class="hero" id="accueil"><h1>Votre santé, notre priorité</h1><p>Prenez rendez-vous avec les meilleurs médecins</p><a href="#services" class="btn">Prendre RDV</a></section>
-<section class="services" id="services"><h2>Nos Services</h2><div class="cards"><div class="card"><h3>🩺 Consultation</h3><p>Médecins généralistes 7j/7</p></div><div class="card"><h3>💻 Téléconsultation</h3><p>Consultez depuis chez vous</p></div><div class="card"><h3>🚨 Urgences</h3><p>Service 24h/24</p></div></div></section>
-<footer id="contact"><p>&copy; 2026 DocTime | contact@doctime.ma</p></footer>
+<header><nav><div class="logo">🏥 DocTime</div><div class="nav-links"><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="mailto:contact@doctime.ma">Contact</a></div></nav></header>
+<section class="hero" id="accueil"><h1>Votre santé, notre priorité</h1><p>Prenez rendez-vous avec les meilleurs médecins</p><a href="https://wa.me/2126919228828?text=Bonjour,%20je%20veux%20prendre%20RDV%20sur%20DocTime" class="btn" target="_blank">Prendre RDV sur WhatsApp</a></section>
+<section class="services" id="services"><h2>Nos Services</h2><div class="cards"><div class="card"><h3>🩺 Consultation</h3><p>Médecins généralistes 7j/7</p><a href="tel:+2126919228828">Appeler maintenant</a></div><div class="card"><h3>💻 Téléconsultation</h3><p>Consultez depuis chez vous</p><a href="https://meet.google.com" target="_blank">Démarrer</a></div><div class="card"><h3>🚨 Urgences</h3><p>Service 24h/24</p><a href="tel:141">Appeler 141</a></div></div></section>
+<footer id="contact"><p>&copy; 2026 DocTime | <a href="mailto:contact@doctime.ma" style="color:#fff">contact@doctime.ma</a></p></footer>
 </body>
 </html>
